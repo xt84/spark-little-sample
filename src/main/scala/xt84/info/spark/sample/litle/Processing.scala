@@ -13,9 +13,10 @@ object Processing {
   ).select(
     dfEmp.col("id").as("emp_id"),
     dfEmp.col("name").as("emp_name"),
-    dfDep.col("name").as("dept_name")
+    dfDep.col("name").as("dept_name"),
+    dfEmp.col("emp_file_name")
   )
 
-  def employeesPrepare(df: DataFrame, path: String): DataFrame = df.withColumn("emp_file_name", lit(path))
+  def prepareEmployees(df: DataFrame, path: String): DataFrame = df.withColumn("emp_file_name", lit(path))
 
 }

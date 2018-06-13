@@ -9,7 +9,7 @@ class Job(val spark: SparkSession, val parameters: Map[String, String]) {
   def run() = Try(
     Processing.prepareResult(
       Processing.load(spark, parameters("dep")),
-      Processing.employeesPrepare(
+      Processing.prepareEmployees(
         Processing.load(spark, parameters("emp")),
         parameters("emp")
       )
