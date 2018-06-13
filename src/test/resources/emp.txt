@@ -1,0 +1,4 @@
+id;name;dept_id
+1;Oleg;13
+2;Ivan;13
+3;Ashot;69
