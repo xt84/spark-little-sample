@@ -1,4 +1,4 @@
-package xt84.info.spark.sample.litle
+package xt84.info.spark.sample.little
 
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions.lit

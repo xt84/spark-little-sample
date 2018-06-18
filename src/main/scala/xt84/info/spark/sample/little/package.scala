@@ -3,7 +3,7 @@ package xt84.info.spark.sample
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
-package object litle {
+package object little {
 
   val DEFAULT_INPUT_FORMAT  = "com.databricks.spark.csv"
   val DEFAULT_OUTPUT_FORMAT = "parquet"

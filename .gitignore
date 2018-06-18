@@ -1,5 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 /spark-.iml
 /.idea/
-/spark-litle-sample.iml
+/*.iml
 /dependency-reduced-pom.xml

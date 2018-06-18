@@ -1,4 +1,4 @@
-package xt84.info.spark.sample.litle
+package xt84.info.spark.sample.little
 
 import java.io.File
 import java.util.UUID
